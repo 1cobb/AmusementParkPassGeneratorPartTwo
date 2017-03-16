@@ -13,8 +13,7 @@
 		474827561E6880C700DBFBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474827551E6880C700DBFBAD /* Assets.xcassets */; };
 		474827591E6880C700DBFBAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474827571E6880C700DBFBAD /* LaunchScreen.storyboard */; };
 		474827611E68817300DBFBAD /* AttendeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474827601E68817300DBFBAD /* AttendeeModel.swift */; };
-		474827631E68D0A800DBFBAD /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474827621E68D0A800DBFBAD /* ErrorHandling.swift */; };
-		474827651E69144D00DBFBAD /* PassGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474827641E69144D00DBFBAD /* PassGenerator.swift */; };
+		47E93A041E762A6600AFF83F /* PassGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E93A031E762A6600AFF83F /* PassGeneratorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +25,7 @@
 		474827581E6880C700DBFBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4748275A1E6880C700DBFBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474827601E68817300DBFBAD /* AttendeeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeeModel.swift; sourceTree = "<group>"; };
-		474827621E68D0A800DBFBAD /* ErrorHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
-		474827641E69144D00DBFBAD /* PassGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGenerator.swift; sourceTree = "<group>"; };
+		47E93A031E762A6600AFF83F /* PassGeneratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGeneratorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +60,12 @@
 			children = (
 				4748274E1E6880C700DBFBAD /* AppDelegate.swift */,
 				474827501E6880C700DBFBAD /* ViewController.swift */,
+				47E93A031E762A6600AFF83F /* PassGeneratorViewController.swift */,
 				474827521E6880C700DBFBAD /* Main.storyboard */,
 				474827551E6880C700DBFBAD /* Assets.xcassets */,
 				474827571E6880C700DBFBAD /* LaunchScreen.storyboard */,
 				4748275A1E6880C700DBFBAD /* Info.plist */,
 				474827601E68817300DBFBAD /* AttendeeModel.swift */,
-				474827621E68D0A800DBFBAD /* ErrorHandling.swift */,
-				474827641E69144D00DBFBAD /* PassGenerator.swift */,
 			);
 			path = "Amusement Park";
 			sourceTree = "<group>";
@@ -147,10 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				474827511E6880C700DBFBAD /* ViewController.swift in Sources */,
-				474827631E68D0A800DBFBAD /* ErrorHandling.swift in Sources */,
 				474827611E68817300DBFBAD /* AttendeeModel.swift in Sources */,
 				4748274F1E6880C700DBFBAD /* AppDelegate.swift in Sources */,
-				474827651E69144D00DBFBAD /* PassGenerator.swift in Sources */,
+				47E93A041E762A6600AFF83F /* PassGeneratorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jamescobb.Amusement-Park";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -290,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jamescobb.Amusement-Park";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
